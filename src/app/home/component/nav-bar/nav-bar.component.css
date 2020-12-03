@@ -1,0 +1,14 @@
+.button-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container div {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  font-size: 1.2rem;
+}
