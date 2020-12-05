@@ -1,5 +1,24 @@
 <mat-card>
   <mat-card-content>
-    <h1>Kontakt</h1>
+    <h1 class="card-header">Kontakt</h1>
+    <div class="contact-container">
+      <span class="material-icons phone-icon">phone</span>
+      <span class="contact-data-phone">515 616 717</span>
+      <span class="contact-data">ul. Piotrkowska 1, Łódź</span>
+      <span class="contact-data">you.can.dance@school.pl</span>
+      <div class="facebook-container">
+        <button mat-icon-button matTooltip="Nasz fanpage" (click)="goFB()">
+          <mat-icon>facebook</mat-icon>
+        </button>
+        <span>Znajdź nas na Facebooku</span>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>
+
+<mat-card class="map-container">
+  <mat-card-content>
+    <h1 class="card-header">Mapa</h1>
+    <img src="assets/image/mapa.png" alt="lokalizacja na mapie">
   </mat-card-content>
 </mat-card>
