@@ -1,0 +1,41 @@
+.container {
+  max-width: 1050px;
+  color: white;
+  margin: 2em auto;
+  text-align: center;
+  background: #424242;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.list-item {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+  height: 350px;
+}
+
+
+.item {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+  background-color: #353535;
+  border: 1px solid black;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  align-items: center;
+}

@@ -1,1 +1,27 @@
 <h1>Instruktor</h1>
+
+<div class="container">
+    <div class="list-item">
+        <div class="item">
+            <img class="image" src="{{ instructor.image }}">
+        </div>
+        <div class="item">
+            <h2>
+                {{ instructor.name }}
+            </h2>
+            <p>
+                Instruktor {{ instructor.activity_type }}
+            </p>
+            <p>
+                Wiek: {{ instructor.age }}
+            </p>
+            <p>
+                {{ instructor.description }}
+            </p>
+
+            <button (click)="goToInstructorsList()" class="button item">
+                Wróć
+            </button>
+        </div>
+    </div>
+</div>
