@@ -1,31 +1,33 @@
 .container {
-  max-width: 1000px;
-  background: #424242;
+  max-width: 1050px;
   color: white;
   margin: 2em auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.container h1 {
+h1 {
     padding-top: 20px;
     text-align: center;
 }
 
 .list-item {
+    background: #424242;
     padding: 20px;
+    margin: 30px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
-.list-item img {
-  height: 300px;
+img {
+  max-width: 800px;
 }
 
 
 .item {
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    margin-top: 10px;
 }
 
 .button {
