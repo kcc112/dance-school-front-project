@@ -1,0 +1,23 @@
+<div class="schedule-box">
+  <div class="filter-box">
+    <mat-form-field>
+      <mat-label>Poziom:</mat-label>
+      <mat-select [formControl]="levelSelected">
+        <mat-option (click)="filterByLevel()" value="P">Początkujący</mat-option>
+        <mat-option (click)="filterByLevel()" value="S">Średni</mat-option>
+        <mat-option (click)="filterByLevel()" value="Z">Zaawansowany</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Technika:</mat-label>
+      <mat-select [formControl]="typeSelected">
+        <mat-option *ngFor="let option of options" (click)="filterByType()" value="{{option}}">{{option}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div class="app-schedule-table-wrapper">
+    <app-schedule-table style="margin-bottom: 20px" *ngFor="let item of items"
+                        [activities]="item.activities"
+                        [day]="item.day"></app-schedule-table>
+  </div>
+</div>

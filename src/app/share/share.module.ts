@@ -6,6 +6,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatSelectModule} from '@angular/material/select';
+import {MatTableModule} from '@angular/material/table';
 
 
 
@@ -21,6 +22,7 @@ import {MatSelectModule} from '@angular/material/select';
     MatCardModule,
     MatTooltipModule,
     MatSelectModule,
+    MatTableModule,
 
   ],
   exports: [
@@ -31,6 +33,7 @@ import {MatSelectModule} from '@angular/material/select';
     MatCardModule,
     MatTooltipModule,
     MatSelectModule,
+    MatTableModule,
 
   ],
 })
