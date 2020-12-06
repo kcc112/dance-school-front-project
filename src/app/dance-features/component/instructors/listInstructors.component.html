@@ -1,0 +1,13 @@
+<h1>Instruktorzy</h1>
+
+<div *ngFor="let instructor of instructors.instructors">
+    <h3>
+        {{ instructor.name }}
+    </h3>
+    <p>
+        {{ instructor.description }}
+    </p>
+    <button (click)="goToInstructorDetails(instructor.id)">
+        Pokaż więcej
+    </button>
+</div>

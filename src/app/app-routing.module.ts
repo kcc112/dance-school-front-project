@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {HomeComponent} from './home/home.component';
 import {ContactComponent} from './dance-features/component/contact/contact.component';
+import {InstructorComponent} from './dance-features/component/instructors/profiles/instructor.component';
+import {ListInstructorsComponent} from './dance-features/component/instructors/listInstructors.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -9,6 +11,8 @@ const routes: Routes = [
     path: 'home', component: HomeComponent,
     children: [
       {path: 'contact', component: ContactComponent},
+      {path: 'list_instructors', component: ListInstructorsComponent},
+      {path: 'instructor/:id', component: InstructorComponent},
     ]
   }
 ];
