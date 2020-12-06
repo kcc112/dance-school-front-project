@@ -1,1 +1,17 @@
-<p>news works!</p>
+<div class="wrapper">
+  <div>
+    <div *ngFor="let element of array" class="list-item">
+      <div class="image-container">
+        <img class="image" src={{element.image}} alt={{element.alt}}>
+      </div>
+      <div class="info-section">
+        <div class="types">
+          <div class="headline">{{element.headline}}</div>
+        </div>
+        <div class="info">
+          {{element.description}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
