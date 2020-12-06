@@ -1,13 +1,23 @@
-<h1>Instruktorzy</h1>
 
-<div *ngFor="let instructor of instructors.instructors">
-    <h3>
-        {{ instructor.name }}
-    </h3>
-    <p>
-        {{ instructor.description }}
-    </p>
-    <button (click)="goToInstructorDetails(instructor.id)">
-        Pokaż więcej
-    </button>
+<div class="container">
+    <h1>Instruktorzy</h1>
+    <div *ngFor="let instructor of instructors.instructors" class="list-item">
+        <div class="item">
+            <img class="image" src="{{ instructor.image }}">
+        </div>
+        <div class="item">
+            <h3>
+                {{ instructor.name }}
+            </h3>
+            <p>
+                {{ instructor.activity_type }}
+            </p>
+            <p>
+                {{ instructor.description }}
+            </p>
+            <button (click)="goToInstructorDetails(instructor.id)" class="button">
+                Pokaż więcej
+            </button>
+        </div>
+    </div>
 </div>

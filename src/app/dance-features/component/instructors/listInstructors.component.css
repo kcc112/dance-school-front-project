@@ -1,43 +1,40 @@
-mat-card {
-  max-width: 500px;
-  margin: 8em auto;
+.container {
+  max-width: 1000px;
+  background: #424242;
+  color: white;
+  margin: 2em auto;
+}
+
+.container h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.list-item {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.list-item img {
+  height: 300px;
+}
+
+
+.item {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+  background-color: #353535;
+  border: 1px solid black;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
-}
-
-.map-container {
-  max-width: 600px;
-  display: flex;
-  justify-content: center
-}
-
-.card-header {
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
-.contact-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.facebook-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.3rem;
-}
-mat-icon {
-  font-size: 1.7rem;
-}
-.contact-data-phone{
-  font-size: 2rem;
-  margin: 1em 0;
-  font-weight: bold;
-}
-.contact-data {
-  margin-bottom: 0.7em;
-  font-size: 1.3rem;
-}
-.phone-icon{
-  font-size:3.5rem;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
