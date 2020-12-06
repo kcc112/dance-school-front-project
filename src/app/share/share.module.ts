@@ -5,7 +5,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatTooltipModule} from '@angular/material/tooltip';
-
+import {MatSelectModule} from '@angular/material/select';
 
 
 
@@ -20,7 +20,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     MatButtonModule,
     MatCardModule,
     MatTooltipModule,
-
+    MatSelectModule,
 
   ],
   exports: [
@@ -30,6 +30,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     MatButtonModule,
     MatCardModule,
     MatTooltipModule,
+    MatSelectModule,
 
   ],
 })
