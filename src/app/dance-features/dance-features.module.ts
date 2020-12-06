@@ -5,11 +5,12 @@ import { ListInstructorsComponent } from './component/instructors/listInstructor
 import { InstructorComponent } from './component/instructors/profiles/instructor.component';
 import {ShareModule} from '../share/share.module';
 import { ActyvitiesComponent } from './component/actyvities/actyvities.component';
+import { NewsComponent } from './component/news/news.component';
 
 
 
 @NgModule({
-  declarations: [ContactComponent, ActyvitiesComponent, InstructorComponent, ListInstructorsComponent],
+  declarations: [ContactComponent, ActyvitiesComponent, InstructorComponent, ListInstructorsComponent, NewsComponent],
   imports: [
     CommonModule,
     ShareModule,
