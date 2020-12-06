@@ -1,0 +1,57 @@
+.wrapper {
+  height: 100%;
+  background: #424242;
+  overflow: scroll;
+}
+
+.list-item {
+  border-bottom: 1px solid white;
+  height: 150px;
+  display: flex;
+}
+
+.list-item:first-of-type {
+  border-top: 1px solid white;
+}
+
+.image-container {
+  padding: 10px;
+}
+
+.image {
+  width: 130px;
+  height: 130px;
+  flex: 1;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+.types {
+  flex: 1;
+  display: flex;
+  font-size: 16px;
+  padding: 7px 2px;
+}
+
+.info {
+  flex: 3;
+  color: white;
+}
+
+.text {
+  color: white;
+  padding: 2px;
+}
+
+.filter-wrapper {
+  display: flex;
+  justify-content: end;
+}
+
+mat-form-field {
+  padding: 6px 20px;
+}
