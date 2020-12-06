@@ -54,7 +54,7 @@ export class NewsComponent implements OnInit {
       image: 'assets/image/dancer_lady.jpg',
       alt: 'tango',
       headline: "Poznaj naszą nową instruktorkę",
-      description: 'Niesamowita i energiczna Kasia sprawi, że każde zajęcia będą niezwykłe. Długo nie zapomnisz swojej pierwszej godziny z nią!'
+      description: 'Niesamowita i energiczna Kinga sprawi, że każde zajęcia będą niezwykłe. Długo nie zapomnisz swojej pierwszej godziny z nią!'
     }
   ];
 
