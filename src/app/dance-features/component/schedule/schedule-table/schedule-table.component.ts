@@ -1,5 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
+import {MatDialog, MatDialogConfig} from '@angular/material/dialog';
+import {ModalSignInComponent} from '../../modal-sign-in/modal-sign-in.component';
 
 export interface ScheduleActivity {
   start: string;
@@ -24,7 +26,7 @@ export class ScheduleTableComponent implements OnInit {
   displayedColumns: string[] = ['hours', 'type', 'instructor', 'level', 'actions'];
   levelsMap: Map<string, string> = new Map<string, string>();
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, public matDialog: MatDialog) { }
 
   ngOnInit(): void {
     this.levelsMap.set('P', 'Początkujący');
@@ -33,7 +35,17 @@ export class ScheduleTableComponent implements OnInit {
   }
 
   toSignIn(): void {
-    this.router.navigate(['home/news']);
+    this.router.navigate(['home/singIn']);
+  }
+
+  openModal(): void {
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.disableClose = true;
+    dialogConfig.id = 'modal-component';
+    dialogConfig.height = '470px';
+    dialogConfig.width = '700px';
+    // https://material.angular.io/components/dialog/overview
+    const modalDialog = this.matDialog.open(ModalSignInComponent, dialogConfig);
   }
 
   convertLevel(level: string): string {

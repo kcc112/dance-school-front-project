@@ -1,0 +1,27 @@
+<h2 mat-dialog-title style="text-align: center">Zapis</h2>
+<mat-dialog-content style="text-align: center">
+  <div class="row row-sep">
+    <input type="text" placeholder="Imię" />
+  </div>
+  <div class="row row-sep">
+    <input type="text" placeholder="Nazwisko" />
+  </div>
+  <div class="row row-sep">
+    <input type="text" placeholder="Numer Telefonu" />
+  </div>
+  <div class="row row-sep">
+    <input type="text" placeholder="Adres email" />
+  </div>
+</mat-dialog-content>
+<mat-dialog-content>
+<div class="row row-sep">
+  <input type="checkbox" style="padding-right: 10px">
+Wyrażam zgodę na przesyłanie informacji handlowych za pomocą środków komunikacji elektronicznej w rozumieniu ustawy z dnia 18 lipca 2002 roku
+  o świadczenie usług drogą elektroniczną (Dz.U.2017.1219 t.j.) na podany adres e-mail na temat usług oferowanych przez ABC Sp. z o.o. przy ul. [x] z siedzibą w [x].
+  Zgoda jest dobrowolna i może być w każdej chwili wycofana, klikając w odpowiedni link na końcu wiadomości e-mail.
+</div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-stroked-button mat-dialog-close>Wróć</button>
+  <button mat-stroked-button color="primary" [mat-dialog-close]="true" cdkFocusInitial>Zapisz się</button>
+</mat-dialog-actions>

@@ -9,6 +9,8 @@ import {NewsComponent} from './component/news/news.component';
 import {ScheduleComponent} from './component/schedule/schedule.component';
 import {ScheduleTableComponent} from './component/schedule/schedule-table/schedule-table.component';
 import {ReactiveFormsModule} from '@angular/forms';
+import { ModalSignInComponent } from './component/modal-sign-in/modal-sign-in.component';
+import {MatDialogModule} from '@angular/material/dialog';
 
 
 @NgModule({
@@ -19,11 +21,13 @@ import {ReactiveFormsModule} from '@angular/forms';
     ListInstructorsComponent,
     NewsComponent,
     ScheduleComponent,
-    ScheduleTableComponent],
+    ScheduleTableComponent,
+    ModalSignInComponent],
   imports: [
     CommonModule,
     ShareModule,
     ReactiveFormsModule,
+    MatDialogModule,
   ]
 })
 export class DanceFeaturesModule {
