@@ -1,13 +1,13 @@
 <div class="wrapper">
   <div class="filter-wrapper">
     <mat-form-field>
-      <mat-label>Level</mat-label>
+      <mat-label>Poziom zaawansowania</mat-label>
       <mat-select name="levelString" [(value)]="selectedLevel">
         <mat-option *ngFor="let activityLevel of activityLevels" (click)="filterActivities()" [value]="activityLevel.code">{{activityLevel.value}}</mat-option>
       </mat-select>
     </mat-form-field>
     <mat-form-field>
-      <mat-label>Type</mat-label>
+      <mat-label>Styl tańca</mat-label>
       <mat-select name="typeString" [(value)]="selectedType">
         <mat-option *ngFor="let activityType of activityTypes" (click)="filterActivities()" [value]="activityType.code">{{activityType.value}}</mat-option>
       </mat-select>

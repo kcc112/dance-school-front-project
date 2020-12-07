@@ -41,16 +41,23 @@ export class ActivitiesComponent implements OnInit {
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel vehicula ex. Phasellus placerat justo eu mauris cursus, at bibendum magna condimentum. Vivamus ipsum ante, gravida nec ligula ac, bibendum placerat purus. Nunc imperdiet sem et turpis sodales, nec convallis dui mollis. Vivamus venenatis neque a sem ullamcorper, vitae porta justo rhoncus. Donec ullamcorper metus purus, nec blandit lorem rutrum vel. Sed varius consequat lacinia. Ut consectetur mi sed iaculis finibus. Ut placerat, nulla ac commodo congue, risus lorem interdum velit, et venenatis orci quam sagittis orci. Donec porta vitae libero fermentum cursus. Aenean feugiat felis quis turpis iaculis laoreet vel quis augue.'
     },
     {
-      image: 'assets/image/tango.jpg',
-      alt: 'tango',
-      type: 'Tango',
-      level: 'Zaawansowany',
-      description: 'aLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel vehicula ex. Phasellus placerat justo eu mauris cursus, at bibendum magna condimentum. Vivamus ipsum ante, gravida nec ligula ac, bibendum placerat purus. Nunc imperdiet sem et turpis sodales, nec convallis dui mollis. Vivamus venenatis neque a sem ullamcorper, vitae porta justo rhoncus. Donec ullamcorper metus purus, nec blandit lorem rutrum vel. Sed varius consequat lacinia. Ut consectetur mi sed iaculis finibus. Ut placerat, nulla ac commodo congue, risus lorem interdum velit, et venenatis orci quam sagittis orci. Donec porta vitae libero fermentum cursus. Aenean feugiat felis quis turpis iaculis laoreet vel quis augue.'
+      image: 'assets/image/breakdance.jpg',
+      alt: 'breakdance',
+      type: 'Breakdance',
+      level: 'Początkujący',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel vehicula ex. Phasellus placerat justo eu mauris cursus, at bibendum magna condimentum. Vivamus ipsum ante, gravida nec ligula ac, bibendum placerat purus. Nunc imperdiet sem et turpis sodales, nec convallis dui mollis. Vivamus venenatis neque a sem ullamcorper, vitae porta justo rhoncus. Donec ullamcorper metus purus, nec blandit lorem rutrum vel. Sed varius consequat lacinia. Ut consectetur mi sed iaculis finibus. Ut placerat, nulla ac commodo congue, risus lorem interdum velit, et venenatis orci quam sagittis orci. Donec porta vitae libero fermentum cursus. Aenean feugiat felis quis turpis iaculis laoreet vel quis augue.'
     },
     {
-      image: 'assets/image/tango.jpg',
-      alt: 'tango',
-      type: 'Tango',
+      image: 'assets/image/jazz.jpg',
+      alt: 'jazz',
+      type: 'Jazz',
+      level: 'Średni',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel vehicula ex. Phasellus placerat justo eu mauris cursus, at bibendum magna condimentum. Vivamus ipsum ante, gravida nec ligula ac, bibendum placerat purus. Nunc imperdiet sem et turpis sodales, nec convallis dui mollis. Vivamus venenatis neque a sem ullamcorper, vitae porta justo rhoncus. Donec ullamcorper metus purus, nec blandit lorem rutrum vel. Sed varius consequat lacinia. Ut consectetur mi sed iaculis finibus. Ut placerat, nulla ac commodo congue, risus lorem interdum velit, et venenatis orci quam sagittis orci. Donec porta vitae libero fermentum cursus. Aenean feugiat felis quis turpis iaculis laoreet vel quis augue.'
+    },
+    {
+      image: 'assets/image/jazz.jpg',
+      alt: 'jazz',
+      type: 'Jazz',
       level: 'Zaawansowany',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel vehicula ex. Phasellus placerat justo eu mauris cursus, at bibendum magna condimentum. Vivamus ipsum ante, gravida nec ligula ac, bibendum placerat purus. Nunc imperdiet sem et turpis sodales, nec convallis dui mollis. Vivamus venenatis neque a sem ullamcorper, vitae porta justo rhoncus. Donec ullamcorper metus purus, nec blandit lorem rutrum vel. Sed varius consequat lacinia. Ut consectetur mi sed iaculis finibus. Ut placerat, nulla ac commodo congue, risus lorem interdum velit, et venenatis orci quam sagittis orci. Donec porta vitae libero fermentum cursus. Aenean feugiat felis quis turpis iaculis laoreet vel quis augue.'
     },
@@ -58,6 +65,20 @@ export class ActivitiesComponent implements OnInit {
       image: 'assets/image/tango.jpg',
       alt: 'tango',
       type: 'Tango',
+      level: 'Początkujący',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel vehicula ex. Phasellus placerat justo eu mauris cursus, at bibendum magna condimentum. Vivamus ipsum ante, gravida nec ligula ac, bibendum placerat purus. Nunc imperdiet sem et turpis sodales, nec convallis dui mollis. Vivamus venenatis neque a sem ullamcorper, vitae porta justo rhoncus. Donec ullamcorper metus purus, nec blandit lorem rutrum vel. Sed varius consequat lacinia. Ut consectetur mi sed iaculis finibus. Ut placerat, nulla ac commodo congue, risus lorem interdum velit, et venenatis orci quam sagittis orci. Donec porta vitae libero fermentum cursus. Aenean feugiat felis quis turpis iaculis laoreet vel quis augue.'
+    },
+    {
+      image: 'assets/image/salsa.jpg',
+      alt: 'salsa',
+      type: 'Salsa',
+      level: 'Zaawansowany',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel vehicula ex. Phasellus placerat justo eu mauris cursus, at bibendum magna condimentum. Vivamus ipsum ante, gravida nec ligula ac, bibendum placerat purus. Nunc imperdiet sem et turpis sodales, nec convallis dui mollis. Vivamus venenatis neque a sem ullamcorper, vitae porta justo rhoncus. Donec ullamcorper metus purus, nec blandit lorem rutrum vel. Sed varius consequat lacinia. Ut consectetur mi sed iaculis finibus. Ut placerat, nulla ac commodo congue, risus lorem interdum velit, et venenatis orci quam sagittis orci. Donec porta vitae libero fermentum cursus. Aenean feugiat felis quis turpis iaculis laoreet vel quis augue.'
+    },
+    {
+      image: 'assets/image/breakdance.jpg',
+      alt: 'breakdance',
+      type: 'Breakdance',
       level: 'Zaawansowany',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel vehicula ex. Phasellus placerat justo eu mauris cursus, at bibendum magna condimentum. Vivamus ipsum ante, gravida nec ligula ac, bibendum placerat purus. Nunc imperdiet sem et turpis sodales, nec convallis dui mollis. Vivamus venenatis neque a sem ullamcorper, vitae porta justo rhoncus. Donec ullamcorper metus purus, nec blandit lorem rutrum vel. Sed varius consequat lacinia. Ut consectetur mi sed iaculis finibus. Ut placerat, nulla ac commodo congue, risus lorem interdum velit, et venenatis orci quam sagittis orci. Donec porta vitae libero fermentum cursus. Aenean feugiat felis quis turpis iaculis laoreet vel quis augue.'
     },
@@ -65,46 +86,31 @@ export class ActivitiesComponent implements OnInit {
       image: 'assets/image/tango.jpg',
       alt: 'tango',
       type: 'Tango',
-      level: 'Zaawansowany',
-      description: 'aLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel vehicula ex. Phasellus placerat justo eu mauris cursus, at bibendum magna condimentum. Vivamus ipsum ante, gravida nec ligula ac, bibendum placerat purus. Nunc imperdiet sem et turpis sodales, nec convallis dui mollis. Vivamus venenatis neque a sem ullamcorper, vitae porta justo rhoncus. Donec ullamcorper metus purus, nec blandit lorem rutrum vel. Sed varius consequat lacinia. Ut consectetur mi sed iaculis finibus. Ut placerat, nulla ac commodo congue, risus lorem interdum velit, et venenatis orci quam sagittis orci. Donec porta vitae libero fermentum cursus. Aenean feugiat felis quis turpis iaculis laoreet vel quis augue.'
-    },
-    {
-      image: 'assets/image/tango.jpg',
-      alt: 'tango',
-      type: 'Tango',
-      level: 'Zaawansowany',
+      level: 'Średni',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel vehicula ex. Phasellus placerat justo eu mauris cursus, at bibendum magna condimentum. Vivamus ipsum ante, gravida nec ligula ac, bibendum placerat purus. Nunc imperdiet sem et turpis sodales, nec convallis dui mollis. Vivamus venenatis neque a sem ullamcorper, vitae porta justo rhoncus. Donec ullamcorper metus purus, nec blandit lorem rutrum vel. Sed varius consequat lacinia. Ut consectetur mi sed iaculis finibus. Ut placerat, nulla ac commodo congue, risus lorem interdum velit, et venenatis orci quam sagittis orci. Donec porta vitae libero fermentum cursus. Aenean feugiat felis quis turpis iaculis laoreet vel quis augue.'
     },
     {
-      image: 'assets/image/tango.jpg',
-      alt: 'tango',
-      type: 'Tango',
-      level: 'Zaawansowany',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel vehicula ex. Phasellus placerat justo eu mauris cursus, at bibendum magna condimentum. Vivamus ipsum ante, gravida nec ligula ac, bibendum placerat purus. Nunc imperdiet sem et turpis sodales, nec convallis dui mollis. Vivamus venenatis neque a sem ullamcorper, vitae porta justo rhoncus. Donec ullamcorper metus purus, nec blandit lorem rutrum vel. Sed varius consequat lacinia. Ut consectetur mi sed iaculis finibus. Ut placerat, nulla ac commodo congue, risus lorem interdum velit, et venenatis orci quam sagittis orci. Donec porta vitae libero fermentum cursus. Aenean feugiat felis quis turpis iaculis laoreet vel quis augue.'
-    },
-    {
-      image: 'assets/image/tango.jpg',
-      alt: 'tango',
-      type: 'Tango',
-      level: 'Zaawansowany',
-      description: 'aLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel vehicula ex. Phasellus placerat justo eu mauris cursus, at bibendum magna condimentum. Vivamus ipsum ante, gravida nec ligula ac, bibendum placerat purus. Nunc imperdiet sem et turpis sodales, nec convallis dui mollis. Vivamus venenatis neque a sem ullamcorper, vitae porta justo rhoncus. Donec ullamcorper metus purus, nec blandit lorem rutrum vel. Sed varius consequat lacinia. Ut consectetur mi sed iaculis finibus. Ut placerat, nulla ac commodo congue, risus lorem interdum velit, et venenatis orci quam sagittis orci. Donec porta vitae libero fermentum cursus. Aenean feugiat felis quis turpis iaculis laoreet vel quis augue.'
-    },
-    {
-      image: 'assets/image/tango.jpg',
-      alt: 'tango',
+      image: 'assets/image/salsa.jpg',
+      alt: 'salsa',
       type: 'Salsa',
       level: 'Początkujący',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel vehicula ex. Phasellus placerat justo eu mauris cursus, at bibendum magna condimentum. Vivamus ipsum ante, gravida nec ligula ac, bibendum placerat purus. Nunc imperdiet sem et turpis sodales, nec convallis dui mollis. Vivamus venenatis neque a sem ullamcorper, vitae porta justo rhoncus. Donec ullamcorper metus purus, nec blandit lorem rutrum vel. Sed varius consequat lacinia. Ut consectetur mi sed iaculis finibus. Ut placerat, nulla ac commodo congue, risus lorem interdum velit, et venenatis orci quam sagittis orci. Donec porta vitae libero fermentum cursus. Aenean feugiat felis quis turpis iaculis laoreet vel quis augue.'
     },
-  ];
+  ]
+  .map((a) => ({sort: Math.random(), value: a}))
+  .sort((a, b) => a.sort - b.sort)
+  .map((a) => a.value);
 
   activityTypes: ActivityType[] = [
     {code: 'S', value: 'Salsa'},
-    {code: 'T', value: 'Tango'}
+    {code: 'T', value: 'Tango'},
+    {code: 'J', value: 'Jazz'},
+    {code: 'B', value: 'Breakdance'}
   ];
   activityLevels: ActivityLevel[] = [
-    {code: 'P', value: 'Początkujący'},
-    {code: 'Z', value: 'Zaawansowany'}
+    {code: 'B', value: 'Początkujący'},
+    {code: 'I', value: 'Średni'},
+    {code: 'A', value: 'Zaawansowany'}
   ];
 
   immutableArray = this.activities;

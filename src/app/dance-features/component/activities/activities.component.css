@@ -3,7 +3,6 @@
   padding-left: 10%;
   padding-right: 10%;
   justify-items: center;
-  background: #424242;
   overflow: scroll;
 }
 
@@ -52,7 +51,10 @@
 
 .filter-wrapper {
   display: flex;
+  background: #424242;
   justify-content: end;
+  margin-bottom: 2em;
+  padding-top: 1em;
 }
 
 mat-form-field {
@@ -78,6 +80,5 @@ mat-form-field {
 }
 
 .activity-card {
-  background: black;
   margin-bottom: 2em;
 }
