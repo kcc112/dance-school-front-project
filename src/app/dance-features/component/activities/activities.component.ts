@@ -137,4 +137,10 @@ export class ActivitiesComponent implements OnInit {
     if (level.value === activity.level) return true;
     return false;
   }
+
+  clearFilters() : void {
+    this.selectedType = ''; 
+    this.selectedLevel = '';
+    this.activities = this.immutableArray;
+  }
 }

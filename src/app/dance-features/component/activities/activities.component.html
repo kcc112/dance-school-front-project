@@ -12,6 +12,7 @@
         <mat-option *ngFor="let activityType of activityTypes" (click)="filterActivities()" [value]="activityType.code">{{activityType.value}}</mat-option>
       </mat-select>
     </mat-form-field>
+    <button mat-button (click)="clearFilters()">Wyczyść filtry</button>
   </div>
   <div class="cards-wrapper">
     <mat-card *ngFor="let element of activities" class="activity-card">

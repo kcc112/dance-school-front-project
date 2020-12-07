@@ -55,6 +55,11 @@
   justify-content: end;
   margin-bottom: 2em;
   padding-top: 1em;
+  padding-bottom: .8em;
+}
+
+.filter-wrapper button {
+  color: white;
 }
 
 mat-form-field {
