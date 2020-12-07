@@ -36,7 +36,7 @@ export class NewsComponent implements OnInit {
       image: 'assets/image/tango2.jpg',
       alt: 'tango',
       headline: "Nowe zajęcia w naszej szkole!!!",
-      description: 'Od grudnia ruszają nowe zajęcia z niedostępnych wcześniej stylów, a mianowicie: \br -Tango \n -Rumba \n -Burleska \nZapisz się już dziś!'
+      description: 'Od grudnia ruszają nowe zajęcia z niedostępnych wcześniej stylów, a mianowicie: \n -Tango \n -Rumba \n -Burleska \nZapisz się już dziś!'
     },
     {
       image: 'assets/image/swieta.jpg',
