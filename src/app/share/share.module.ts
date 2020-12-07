@@ -7,6 +7,8 @@ import {MatCardModule} from '@angular/material/card';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatSelectModule} from '@angular/material/select';
 import {MatTableModule} from '@angular/material/table';
+import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 
 
 
@@ -16,6 +18,8 @@ import {MatTableModule} from '@angular/material/table';
   declarations: [],
   imports: [
     BrowserAnimationsModule,
+    BrowserModule,
+    CommonModule,
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
@@ -27,6 +31,8 @@ import {MatTableModule} from '@angular/material/table';
   ],
   exports: [
     BrowserAnimationsModule,
+    BrowserModule,
+    CommonModule,
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,

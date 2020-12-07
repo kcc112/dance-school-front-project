@@ -1,5 +1,8 @@
 .wrapper {
   height: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-items: center;
   background: #424242;
   overflow: scroll;
 }
@@ -54,4 +57,27 @@
 
 mat-form-field {
   padding: 6px 20px;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-section img {
+  width: 25%;
+  margin: 0;
+  padding-bottom: .8em;
+}
+
+.info-section mat-card-content {
+  width: 75%;
+  margin: 0;
+  margin-left: 1em;
+  padding: 0 1em;
+}
+
+.activity-card {
+  background: black;
+  margin-bottom: 2em;
 }

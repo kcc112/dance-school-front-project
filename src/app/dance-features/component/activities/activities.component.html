@@ -1,0 +1,31 @@
+<div class="wrapper">
+  <div class="filter-wrapper">
+    <mat-form-field>
+      <mat-label>Level</mat-label>
+      <mat-select name="levelString" [(value)]="selectedLevel">
+        <mat-option *ngFor="let activityLevel of activityLevels" (click)="filterActivities()" [value]="activityLevel.code">{{activityLevel.value}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Type</mat-label>
+      <mat-select name="typeString" [(value)]="selectedType">
+        <mat-option *ngFor="let activityType of activityTypes" (click)="filterActivities()" [value]="activityType.code">{{activityType.value}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div class="cards-wrapper">
+    <mat-card *ngFor="let element of activities" class="activity-card">
+      <mat-card-header>
+        <mat-card-title>{{element.type}}</mat-card-title>
+        <mat-card-subtitle>{{element.level}}</mat-card-subtitle>
+      </mat-card-header>
+      <div class="info-section">
+        <img mat-card-image src={{element.image}} alt={{element.alt}}>
+        <mat-card-content>
+          <p>{{element.description}}</p>
+        </mat-card-content>
+    </div>
+    </mat-card>
+  </div>
+</div>
+
