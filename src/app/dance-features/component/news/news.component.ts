@@ -33,7 +33,7 @@ export class NewsComponent implements OnInit {
       description: 'Uwaga!, wszyscy kursanci są zobowiązani o noszenie maseczek w całym okresie przebywania na terenie szkoły tańca z wyłączeniem czasu trwania zajęć.'
     },
     {
-      image: 'assets/image/tango2.jpg',
+      image: 'assets/image/salsa.jpg',
       alt: 'tango',
       headline: "Nowe zajęcia w naszej szkole!!!",
       description: 'Od grudnia ruszają nowe zajęcia z niedostępnych wcześniej stylów, a mianowicie: \n -Tango \n -Rumba \n -Burleska \nZapisz się już dziś!'
