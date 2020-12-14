@@ -11,7 +11,7 @@ import {ScheduleComponent} from './dance-features/component/schedule/schedule.co
 const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
   {
-    path: 'home', component: HomeComponent,
+    path: '', component: HomeComponent,
     children: [
       {path: 'contact', component: ContactComponent},
       {path: 'activities', component: ActivitiesComponent},
