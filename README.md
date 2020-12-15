@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:8080/`. The app w
 
 ## Production server
 
-`https://kcc112.github.io/dance-school-front-project/home`
+(https://kcc112.github.io/dance-school-front-project/home)
 
 ## Code scaffolding
 
