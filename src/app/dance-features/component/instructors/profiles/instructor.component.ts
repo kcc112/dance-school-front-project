@@ -43,6 +43,6 @@ export class InstructorComponent implements OnInit {
   }
 
   goToInstructorsList() {
-      this.router.navigate(['/home/list_instructors']);
+      this.router.navigate(['/list_instructors']);
   }
 }
